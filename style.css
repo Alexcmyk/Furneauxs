@@ -244,7 +244,7 @@ section.quotes .chelsea {
 
 section.quotes .chelsea img,
 section.quotes .liv img {
-  border-radius: 100px;
+  border-radius: 100%;
   width: 75px;
   box-shadow: 0px 5px 10px rgba(253, 121, 121, 0.267);
 }
@@ -255,4 +255,38 @@ section.quotes blockquote {
   font-weight: 700;
   max-width: 400px;
   margin: 30px auto 15px auto;
+}
+
+section.chair {
+  background-image: url(./assets/full-bleed.jpg);
+  background-position: center bottom;
+  padding: 0;
+  height: 500px;
+}
+
+section.logos {
+  background-color: #eeae9f;
+  padding: 30px 20px 45px 20px;
+  text-align: center;
+}
+
+section.logos p {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+section.logos img:not(:last-child) {
+  margin-right: 30px;
+}
+
+footer {
+  background-color: #48353a;
+  padding: 25px 30px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
 }
