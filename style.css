@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap");
+
 /* Reset */
 html,
 body,
@@ -142,4 +145,63 @@ select {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+/* End of reset */
+
+body {
+  font-family: "David Libre", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #47353a;
+}
+
+a {
+  font-family: "Roboto";
+  color: #47353a;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+header nav a {
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+section.hero {
+  background-image: url(./assets/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.hero div {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+section.hero p {
+  padding: 0 50px;
+}
+
+h2 {
+  font-family: "David Libre", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
 }
