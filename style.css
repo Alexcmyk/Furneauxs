@@ -167,7 +167,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
   top: 0;
   right: 0;
@@ -182,26 +182,43 @@ header nav a {
 
 section.hero {
   background-image: url(./assets/hero.jpg);
-  background-position: center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 200px;
 }
 
 section.hero div {
-  max-width: 500px;
+  max-width: 550px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 0 20px;
 }
 
 section.hero p {
   padding: 0 50px;
+  margin-bottom: 30px;
 }
 
-h2 {
+section.hero h2 {
   font-family: "David Libre", sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+section.hero .button {
+  color: #eeae9f;
+  border: 2px solid #eeae9f;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section.flowers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
